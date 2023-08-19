@@ -47,14 +47,25 @@ export let Avatar = styled.div`
             height: calc(${props => props.length} - 70px);
         }
     }
-    @media (max-width:425px) {
-        min-width: calc(${props => props.length} - 70px);
-        min-height: calc(${props => props.length} - 70px);
+    @media (max-width: 585px) {
+        width: calc(${props => props.length} - 75px);
+        height: calc(${props => props.length} - 75px);
         & img{
-            width: calc(${props => props.length} - 105px);
-            height: calc(${props => props.length} - 105px);
+            width: calc(${props => props.length} - 70px);
+            height: calc(${props => props.length} - 70px);
         }
     }
+    @media (max-width: 376px) {
+        width: calc(${props => props.length} - 80px);
+        min-width: calc(${props => props.length} - 80px);
+        height: calc(${props => props.length} - 80px);
+        min-height: calc(${props => props.length} - 80px);
+        & img{
+            width: calc(${props => props.length} - 85px);
+            height: calc(${props => props.length} - 85px);
+        }
+    }
+    
 `
 export let Spinner = styled.div`
     display: inline-block;
@@ -87,8 +98,11 @@ export let Card = styled.div`
         text-align: center;
     }
     @media (max-width:1204px) {
-        & h1,h2{
+        & h1{
             font-size: 18px;
+        }
+        & h2{
+            font-size: 17px;
         }
         & p{
             font-size: 15px;
@@ -98,7 +112,10 @@ export let Card = styled.div`
         height: fit-content;
     }
     @media (max-width:375px) {
-        & h1,h2{
+        & h1{
+            font-size: 15px;
+        }
+        & h2{
             font-size: 14px;
         }
         & p{
@@ -116,6 +133,36 @@ export let Body = styled.body`
     row-gap: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+    & .languages{
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        text-decoration: none;
+        left: 0;
+        top: 10%;
+        border: none;
+        width: 70px;
+        height: 55px;
+        padding-right: 20px;
+        color: ${theme.Font};
+        background-color: ${theme.primary};
+        font-size: 25px;
+        border-radius: 0 10px 10px 0;
+        gap: 20px;
+        &:hover{
+            color: ${theme.Font2};
+            width: 140px;
+        }
+        & h2{
+            display: none;
+        }
+        &:hover h2{
+            display: block;
+            font-size: 20px;
+        }
+    }
     & h1{
         padding: 0;
         margin: 0;
@@ -139,6 +186,10 @@ export let Body = styled.body`
         }
         @media (max-width:622px) {
             width: 80%;
+        }
+        @media (max-width:534px) {
+            width: 85%;
+            padding: 20px;
         }
         & .grid{
             display: grid;
@@ -165,6 +216,30 @@ export let Body = styled.body`
                 }
                 & p{
                     font-size: 15px;
+                }
+            }
+            @media (max-width:585px) {
+                & h1{
+                    font-size: 13px;
+                }
+                & p{
+                    font-size: 10px;
+                }
+            }
+            @media (max-width: 376px) {
+                & h1{
+                    font-size: 12px;
+                }
+                & p{
+                    font-size: 9px;
+                }
+            }
+            @media (max-width: 280px) {
+                & h1{
+                    font-size: 10px;
+                }
+                & p{
+                    font-size: 8px;
                 }
             }
         }
@@ -197,6 +272,11 @@ export let Body = styled.body`
                 height: 30px;
                 width: 30px;
                 font-size: 17px;
+            }
+            @media (max-width: 320px) {
+                height: 20px;
+                width: 20px;
+                font-size: 15px;
             }
         }
     }
