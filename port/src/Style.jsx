@@ -151,6 +151,7 @@ export let Body = styled.body`
         font-size: 25px;
         border-radius: 0 10px 10px 0;
         gap: 20px;
+        transition: 200ms ease-in-out;
         &:hover{
             color: ${theme.Font2};
             width: 140px;
