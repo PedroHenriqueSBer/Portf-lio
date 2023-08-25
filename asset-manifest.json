@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portf-lio/static/css/main.db084c70.css",
+    "main.js": "/Portf-lio/static/js/main.6eb896fe.js",
+    "static/media/En.pdf": "/Portf-lio/static/media/En.fde64827d02d8d0948a7.pdf",
+    "static/media/Ptbr.pdf": "/Portf-lio/static/media/Ptbr.654a5c8a9ec29df3d84a.pdf",
+    "index.html": "/Portf-lio/index.html",
+    "main.db084c70.css.map": "/Portf-lio/static/css/main.db084c70.css.map",
+    "main.6eb896fe.js.map": "/Portf-lio/static/js/main.6eb896fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db084c70.css",
+    "static/js/main.6eb896fe.js"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+    "knowledge":[
+        {
+            "id":0,
+            "img":"https://icons.veryicon.com/png/o/business/vscode-program-item-icon/react-3.png",
+            "title":"React js",
+            "subtitle":"Front end Framework",
+            "subtitlebr":"Front end Framework",
+            "Desc":"Currently, I am learning this technology. I've already learned how to use some libraries like React Router and Styled Components, the basics. I'm also exploring how to consume APIs with Axios and learning how to create forms, Moreover, this website was built using this technology.",
+            "Descbr":"Atualmente, Estou estudando esta tecnologia. já aprendi como usar algumas bibliotecas como React Router e Styled Components o básico. Estou estudando como consumir APIs com Axios e aprendendo como criar formulários, inclusive este site foi criado em react",
+            "Colorimg":"#23272F",
+            "ColorBack":"#191B21",
+            "ColorFont":"#F6F7F9"
+        },
+        {
+            "id":1,
+            "img":"https://static-00.iconduck.com/assets.00/file-type-angular-icon-1907x2048-tobdkjt1.png",
+            "title":"Angular",
+            "subtitle":"Front end Framework",
+            "subtitlebr":"Front end Framework",
+            "Desc":"I completed an internship during the second semester of my college focusing on Angular. Since then, I've gained knowledge in consuming APIs and using Angular Material. Additionally, I became familiar with TypeScript due to my work with Angular. Although I temporarily paused my Angular studies as I've been actively practicing with React lately, there's no hindrance preventing me from revisiting Angular in the future.",
+            "Descbr":"Eu completei um estágio no segundo periodo da faculdade focado em angular. Desde então, eu aprendi a consumir APIs em angular e a usar o angular material. Inclusive eu aprendi typescript pelo angular. Mas por enquanto estou sem estudar sobre a tecnologia, mas nada impede de eu voltar a voltar a estudar sobre ela",
+            "Colorimg":"#F7FFFF",
+            "ColorBack":"#C22044",
+            "ColorFont":"#F7FFFF"
+        },
+        {
+            "id":2,
+            "img":"https://cdn.iconscout.com/icon/free/png-256/free-python-3521655-2945099.png",
+            "title":"Python",
+            "subtitle":"Front end Framework",
+            "subtitlebr":"Linguagem de programação",
+            "Desc":"Currently, I am in an internship learning Python, using Selenium and other libraries. I'm utilizing them to create robots that perform web searches on websites. I have also delved into Python APIs, employing Flask, and engaging in database interactions.",
+            "Descbr":"Atualmente estou em um estágio aprendendo python, usando selenium e outras bibliotecas. Aprendi a criar robos que navegam em sites. Além disso tenho uma noção de como fazer APIs em python, usando a biblioteca do flask.",
+            "Colorimg":"#23272F",
+            "ColorBack":"#3873A3",
+            "ColorFont":"#FFE469"
+        },
+        {
+            "id":3,
+            "img":"https://static-00.iconduck.com/assets.00/c-sharp-c-icon-1822x2048-wuf3ijab.png",
+            "title":"C#",
+            "subtitle":"Front end Framework",
+            "subtitlebr":"Linguagem de programação",
+            "Desc":"Currently, I am learning C# to create web APIs in the .NET Framework. I am working on a personal project using React on the frontend and C# on the backend. I have already learned how to make database requests, password encoding, token generation, and a few other things.",
+            "Descbr": "Atualmente, estou aprendendo C# para criar APIs web no Framework .NET. Estou trabalhando em um projeto pessoal utilizando React no frontend e C# no backend. Já aprendi como fazer solicitações ao banco de dados, codificação de senhas, geração de tokens e algumas outras coisas.",
+            "Colorimg":"#32105B",
+            "ColorBack":"#9073B3",
+            "ColorFont":"#FFFFFF"
+        },
+        {
+            "id":4,
+            "img":"https://yoolk.ninja/wp-content/uploads/2017/01/MySQLWorkbench.png",
+            "title":"Mysql",
+            "subtitle":"Database",
+            "subtitlebr":"Banco de dados",
+            "Desc":"Currently, I am studying MySQL in parallel with C# and React, as it's the database system I am using for my personal website. Additionally, it's the database system I am learning in college, as I am taking MySQL database classes.",
+            "Descbr":"Atualmente, estou estudando MySQL em paralelo com C# e React, pois é o sistema de banco de dados que estou usando para o meu site pessoal. Além disso, é o sistema de banco de dados que estou aprendendo na faculdade, pois estou cursando aulas de banco de dados MySQL.",
+            "Colorimg":"#F29111",
+            "ColorBack":"#00758F",
+            "ColorFont":"#FFFFFF"
+        }
+    ]
+}
