@@ -23,6 +23,10 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Build
-      run: cd .. && cd frontend && npm install react-scripts
+      run: |
+        npm install
+        npx webpack
+        npm install react-scripts
+
     - name: Start Development Server
-      run: cd .. && cd frontend && npm start
+      run: npm start
