@@ -5,17 +5,17 @@ body, html {
   padding: 0;
 }
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #032200; 
+  background: #ffcfaa; 
   border-radius: 5px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #217a19; 
-  border-radius: 5px;
+  background: #a5856d; 
+  border-radius: 100px;
 }

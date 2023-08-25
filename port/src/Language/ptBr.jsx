@@ -1,9 +1,10 @@
 import {Body,Languages,Avatar,Spinner,Card,theme} from './../Style'
-import { GithubFilled,TransactionOutlined, LinkedinFilled, FilePdfFilled, YoutubeFilled, MailFilled } from '@ant-design/icons';
+import { GithubFilled,TransactionOutlined, LinkedinFilled, FilePdfFilled, MailFilled } from '@ant-design/icons';
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'
 import { Link } from 'react-router-dom';
 import { message  } from 'antd';
+import curriculum from './../Pdfs/Ptbr.pdf'
 
 export default _ =>{
     const Knowledge = async () => {
@@ -13,6 +14,16 @@ export default _ =>{
         } catch (error) {
             return null;
         }
+    };
+    const handleDownload = () => {
+        // Crie o URL ou caminho para o arquivo que você deseja baixar
+        const fileUrl = curriculum;
+    
+        // Crie um link temporário e clique nele para iniciar o download
+        const link = document.createElement('a');
+        link.href = fileUrl;
+        link.download = 'currículo.pdf';
+        link.click();
     };
     const KnowledgeProm = async () => {
         const data = await Knowledge(); // Espera o resultado da função fetchUserId()
@@ -58,6 +69,9 @@ export default _ =>{
                 <div className='row'>
                     <a className='icon' href="https://github.com/PedroHenriqueSBer"><GithubFilled /></a>
                     <a className='icon' href="https://www.linkedin.com/in/pedro-henrique-sousa-bernardes-645bb7256/"><LinkedinFilled /></a>
+                    <button className='icon' onClick={handleDownload}>
+                        <FilePdfFilled />
+                    </button>
                     <button className='icon' onClick={() => {navigator.clipboard.writeText('pedrokc55@outlook.com');Copy('E-mail copiado!')}}>
                         <MailFilled />
                     </button>

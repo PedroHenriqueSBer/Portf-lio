@@ -11,11 +11,17 @@ const spinAnimation = keyframes`
 `;
 
 //Styled components
+// export let theme = {
+//     primary:'#F7FFFF',
+//     background:'#9FF8A8',
+//     Font:'#032200',
+//     Font2:'#217a19'
+// }
 export let theme = {
     primary:'#F7FFFF',
-    background:'#9FF8A8',
-    Font:'#032200',
-    Font2:'#217a19'
+    background:'#ffcfaa',
+    Font:'#584130',
+    Font2:'#ffcfaa'
 }
 export let Font = {
     Fprimary:"'Lemonada', cursive",
@@ -121,6 +127,10 @@ export let Card = styled.div`
         & p{
             font-size: 9px;
         }
+    }
+    transition: 300ms ease-in-out;
+    &:hover{
+        margin-top: -3px;
     }
 `
 export let Body = styled.body`
