@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0f8ce52a.css",
-    "main.js": "/static/js/main.d272c038.js",
-    "static/media/En.pdf": "/static/media/En.fde64827d02d8d0948a7.pdf",
-    "static/media/Ptbr.pdf": "/static/media/Ptbr.654a5c8a9ec29df3d84a.pdf",
-    "index.html": "/index.html",
-    "main.0f8ce52a.css.map": "/static/css/main.0f8ce52a.css.map",
-    "main.d272c038.js.map": "/static/js/main.d272c038.js.map"
+    "main.css": "/PortFlio/static/css/main.0f8ce52a.css",
+    "main.js": "/PortFlio/static/js/main.0ce4f3a8.js",
+    "static/media/En.pdf": "/PortFlio/static/media/En.fde64827d02d8d0948a7.pdf",
+    "static/media/Ptbr.pdf": "/PortFlio/static/media/Ptbr.654a5c8a9ec29df3d84a.pdf",
+    "index.html": "/PortFlio/index.html",
+    "main.0f8ce52a.css.map": "/PortFlio/static/css/main.0f8ce52a.css.map",
+    "main.0ce4f3a8.js.map": "/PortFlio/static/js/main.0ce4f3a8.js.map"
   },
   "entrypoints": [
     "static/css/main.0f8ce52a.css",
-    "static/js/main.d272c038.js"
+    "static/js/main.0ce4f3a8.js"
   ]
 }
