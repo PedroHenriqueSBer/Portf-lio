@@ -19,9 +19,9 @@ const spinAnimation = keyframes`
 // }
 export let theme = {
     primary:'#F7FFFF',
-    background:'#ffcfaa',
-    Font:'#584130',
-    Font2:'#ffcfaa'
+    background:'#b4794c',
+    Font:'#3c230f',
+    Font2:'#ba6c2c'
 }
 export let Font = {
     Fprimary:"'Lemonada', cursive",
@@ -183,7 +183,7 @@ export let Body = styled.body`
         width: 70%;
         min-height: 300px;
         height: min-content;
-        border-radius: 8px; 
+        border-radius: 4px; 
         box-shadow: 8px 8px 3px #00000043;
         padding: 30px;
         color: ${theme.Font};
